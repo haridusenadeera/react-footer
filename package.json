@@ -1,0 +1,35 @@
+{
+  "name": "React-Footer",
+  "version": "1.0.0",
+  "description": "React Bootstrap Footer",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "build": "webpack",
+    "start": "webpack-dev-server --config webpack.development.js --devtool source-map --progress --colors --hot --content-base build --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haridusenadeera/react-footer.git"
+  },
+  "author": "Haridu Senadeera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haridusenadeera/react-footer/issues"
+  },
+  "homepage": "https://github.com/haridusenadeera/react-footer#readme",
+  "devDependencies": {
+    "babel-core": "^5.6.7",
+    "babel-eslint": "^3.1.23",
+    "babel-loader": "^5.2.0",
+    "eslint": "^0.24.1",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.12",
+    "webpack-dev-server": "^1.9.0",
+    "eslint-plugin-react": "^2.7.0"
+  },
+  "dependencies": {
+    "path-is-absolute": "^1.0.0",
+    "react": "^0.13.3"
+  }
+}
